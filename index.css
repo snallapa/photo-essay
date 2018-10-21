@@ -1,0 +1,81 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 12px;
+}
+
+.title {
+    font-size: 44pt;
+    text-align: center;
+}
+
+.subtitle {
+    margin-top: 18px;
+}
+
+.quote {
+    padding: 15px 10px;
+}
+
+.heading {
+    margin-bottom: 60px;
+}
+
+.heading.conclusion {
+    margin: 0 12px 0 12px;
+    font-size: 16pt;
+    margin-bottom: 24px;
+}
+
+.conclusion {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.text {
+    width: 100%;
+    text-justify: inter-character;
+}
+
+#picture {
+    display: flex;
+    box-shadow: 0px 0px 8px #B0BEC5;
+    margin-bottom: 28px;
+}
+.slideshow { 
+    position: relative; 
+    width: 360px;
+}
+
+.slideshow > div { 
+    position: absolute; 
+    display: flex;
+    align-items: center;
+}
+#content {
+    width: 60%;
+    height: 624px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 8px;
+}
+
+img {
+    width: 360px;
+    height: 620px;
+    padding: 2px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 24pt;
+}
+
+h1 {
+    text-align: center;
+}
